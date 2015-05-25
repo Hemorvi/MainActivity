@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#EEEEEE" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff">
+
+            <LinearLayout
+                android:id="@+id/layout1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="17sp"
+                    android:layout_marginTop="5dip"
+                    android:layout_marginLeft="3dip"
+                    android:layout_marginRight="3dip"
+                    android:text="EXCLUSIVE MONTESSORI WING"
+                    android:textStyle="bold"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="17sp"
+                    android:layout_marginTop="5dip"
+                    android:layout_marginLeft="3dip"
+                    android:layout_marginRight="3dip"
+                    android:text="@string/news1"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="17sp"
+                    android:layout_marginTop="10dip"
+                    android:layout_marginLeft="3dip"
+                    android:layout_marginRight="3dip"
+                    android:text="IMPRESSIVE FACILITY"
+                    android:textStyle="bold"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="17sp"
+                    android:layout_marginTop="5dip"
+                    android:layout_marginLeft="3dip"
+                    android:layout_marginRight="3dip"
+                    android:text="@string/news2"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="17sp"
+                    android:layout_marginTop="10dip"
+                    android:layout_marginLeft="3dip"
+                    android:layout_marginRight="3dip"
+                    android:text="SAFE ENVIRONS AND CLASSROOMS"
+                    android:textStyle="bold"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="17sp"
+                    android:layout_marginTop="5dip"
+                    android:layout_marginLeft="3dip"
+                    android:layout_marginRight="3dip"
+                    android:text="@string/news3"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="17sp"
+                    android:layout_marginTop="10dip"
+                    android:layout_marginLeft="3dip"
+                    android:layout_marginRight="3dip"
+                    android:text="LIMITED CLASS STRENGTH"
+                    android:textStyle="bold"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="17sp"
+                    android:layout_marginTop="5dip"
+                    android:layout_marginLeft="3dip"
+                    android:layout_marginRight="3dip"
+                    android:text="@string/news4"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="17sp"
+                    android:layout_marginTop="10dip"
+                    android:layout_marginLeft="3dip"
+                    android:layout_marginRight="3dip"
+                    android:text="TRAINED FACULTY"
+                    android:textStyle="bold"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="17sp"
+                    android:layout_marginTop="5dip"
+                    android:layout_marginLeft="3dip"
+                    android:layout_marginRight="3dip"
+                    android:text="@string/news5"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="17sp"
+                    android:layout_marginTop="10dip"
+                    android:layout_marginLeft="3dip"
+                    android:layout_marginRight="3dip"
+                    android:text="PARENT INVOLVEMENT"
+                    android:textStyle="bold"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="17sp"
+                    android:layout_marginTop="5dip"
+                    android:layout_marginLeft="3dip"
+                    android:layout_marginRight="3dip"
+                    android:text="@string/news6"
+                    android:textColor="#000000"/>
+
+            </LinearLayout>
+
+</RelativeLayout>
+</ScrollView>
+<!-- From: file:/D:/Android%20Project%20Backup%20on%2019March2015/MainActivity1/app/src/main/res/layout/news.xml -->

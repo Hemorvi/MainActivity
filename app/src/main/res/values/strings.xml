@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Spurthy Global School</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="greet_me">Hello world!</string>
+
+    <string-array name="drawer_titles">
+        <item>User Profile</item>
+        <item>Spurthy Profile</item>
+        <item>Posts</item>
+        <item>Master Panel</item>
+        <item>Directory</item>
+        <item>Academics</item>
+        <item>Transport</item>
+        <item>Others</item>
+        <item>Signout</item>
+    </string-array>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="title_activity_item_one">ItemOne</string>
+
+
+    <!-- User Profile -->
+    <string name="section1">User Details</string>
+    <string name="section2">Timeline</string>
+    <string name="section3">Gallery</string>
+
+    <string name="title_section1">Profile</string>
+    <string name="title_section2">Gallery</string>
+    <string name="title_section3">News</string>
+    
+    <!-- Directory -->
+    <string name="title_section4">Teachers</string>
+    <string name="title_section5">Staff</string>
+    <string name="title_section6">Students</string>
+    
+    <!-- Academics -->
+    <string name="title_section7">TimeTable</string>
+    <string name="title_section8">Attendance</string>
+    <string name="title_section9">Articles</string>
+    <string name="title_section10">Discussion Forum</string>
+
+    <!-- Transport -->
+    <string name="title_section17">Bus Route</string>
+    <string name="title_section18">Driver Details</string>
+    
+    <!-- Others -->
+    <string name="title_section11">Broadcast</string>
+    <string name="title_section12">Notifications</string>
+    <string name="title_section13">Message</string>
+    <string name="title_section14">Events</string>
+    <string name="title_section15">Settings</string>
+    <string name="title_section16">Help</string>
+    
+    <string name="title_activity_tabbed">Spurthy Profile</string>
+    <string name="title_activity_tabbed_second">User Profile</string>
+    <string name="title_activity_tabbed_third">Academics</string>
+    <string name="title_activity_tabbed_forth">Transport</string>
+
+    <string name="title_activity_directory_tab">Directory</string>
+    <string name="title_activity_others_tab">Others</string>
+
+    <string name="title_activity_first">First Class</string>
+    <string name="title_activity_second">Second Class</string>
+    <string name="title_activity_third">Third Class</string>
+
+    <string name="title_activity_first_attendance">First Class Attendance</string>
+    <string name="title_activity_second_attendance">Second Class Attendance</string>
+    <string name="title_activity_third_attendance">Third Class Attendance</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    
+    
+    <string name="the_school">In today’s global, multicultural and knowledge oriented world,
+            education is the tool that opens the door for creative thought, enterprise and
+            trend setting adaptations and changes. But does today’s education prepare the
+            young minds to face challenges, reach out courageously and empathetically embrace
+            this world? Our experience cautions us before making this claim. As a team of
+            experienced educationists we very strongly believe the time has come, where this
+            effort of creating world citizens in the chaotic and muddled world is not just a
+            need but is our responsibility.</string>
+
+    <string name="admission">Registrations for the Academic year 2015-16 are open from Montessori
+            to Grade 8. School will reopen in early June 2015. Contact us to know more on the
+            admission process, fee and forms.</string>
+
+    <string name="mission">The mission of the school is to explore and bring out the hidden star
+            dormant in every child, enabling them to thrive and flourish to their full potential.</string>
+
+    <string name="vision">Leadership is at the core of everything we do at Spurthy. Our vision is
+        to position Spurthy as the institution of choice for excellence in school education
+        in Bangalore by providing world class education in a multi- cultural environment.</string>
+
+    <string name="group1"><b>Spurthy Global School</b> is the latest venture of Spurthy Group of Institutions.</string>
+
+    <string name="group2">The Spurthy story began in 2003. It was scripted by a team of dynamic and vibrant
+            technocrats, research scientists, entrepreneurs and mentors with an objective to encourage, foster
+            and create next generation leaders in health care, management and science.Today, Spurthy alumni and
+            alumnae find their rightful place under the sun, across geographies, performing at par with the very
+            best in the world.</string>
+
+    <string name="group3">Facilitating this is Spurthy’s commitment to provide education of the highest standard,
+            keeping abreast of the changing teaching methodologies and paradigm shifts in technology. In fact, our
+            focus is on preparing every student to adapt to the changing professional environs and excel in his or
+            her walk of life.Spurthy has a 900 plus student body with more than 70 faculty members. </string>
+
+    <string name="news1">The Montessori unit of the school follows the play way method of learning. This exclusive, scientifically
+			   thought out nursery is manned by trained professionals with the knowledge and ability to handle children under 5 years of age.
+			   Helpers have been allotted to take care of the physical needs of each child. </string>
+
+    <string name="news2">Our buildings are planned and developed by experts with more light and air in every classroom. </string>
+
+    <string name="news3">The classrooms at our existing and new facilities are modern, airy and well-ventilated with ergonomically designed furniture for total safety.
+				The entire campus is under 24x7 surveillance by trained security personnel. </string>
+
+    <string name="news4">Spurthy has an impressive teacher to student ratio of 1:20. </string>
+
+    <string name="news5">Teachers attend workshops and seminars to keep abreast of the latest developments and teaching methods. </string>
+
+    <string name="news6">Two-way communication between teachers and parents is maintained through regular meetings, newsletters, open evenings and home- school message books. </string>
+
+</resources>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#daa520">
+
+<LinearLayout
+    android:id="@+id/layout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f7f7f7"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="220dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dip"
+        android:background="@drawable/logoicon"/>
+
+</LinearLayout>
+
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_below="@+id/layout1"
+    android:layout_marginTop="5dip"
+    android:background="#000000" >
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:id="@+id/layout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dip"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:text="THE SCHOOL"
+                android:textColor="#000000"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:text="@string/the_school"
+                android:textColor="#000000"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dip"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:text="ADMISSIONS"
+                android:textColor="#000000"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:text="Registrations Now Open"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:text="@string/admission"
+                android:textColor="#000000"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dip"
+                android:text="MISSION"
+                android:textColor="#000000"
+                android:textSize="17sp"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:text="@string/mission"
+                android:textColor="#000000"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dip"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:text="VISION"
+                android:textColor="#000000"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:text="@string/vision"
+                android:textColor="#000000"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dip"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:text="THE GROUP"
+                android:textColor="#000000"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:text="@string/group1"
+                android:textColor="#000000"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:text="@string/group2"
+                android:textColor="#000000"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:text="@string/group3"
+                android:textColor="#000000"
+                android:textSize="17sp" />
+
+            </LinearLayout>
+    </RelativeLayout>
+</ScrollView>
+    </RelativeLayout><!-- From: file:/D:/Android%20Project%20Backup%20on%2019March2015/MainActivity1/app/src/main/res/layout/spurthy_profile.xml -->

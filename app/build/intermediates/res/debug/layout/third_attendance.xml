@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<HorizontalScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginBottom="5dip"
+    android:background="#EEEEEE">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="5dip"
+        android:background="#EEEEEE">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:background="#509ddd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:id="@+id/class1"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:text="\t3rd Class\nAttendance"
+                android:textSize="25sp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+            <LinearLayout
+                android:id="@+id/layout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/class1">
+
+
+                <TableLayout
+                    android:id="@+id/tabla_cuerpo"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dip"
+                    android:layout_marginLeft="5dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_marginBottom="10dip">
+
+                    <!--    <View
+                            android:layout_height="2dip"
+                            android:background="#000000"
+                            android:layout_marginTop="5dip"/>-->
+
+                    <TableRow android:id="@+id/tableRow1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/rollno"
+                            android:text="Roll No"
+                            android:textStyle="bold"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/day1"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Name"
+                            android:textStyle="bold"/>
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/day2"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="English(30)" />
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/day3"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Kannada(30)"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/day4"
+                            android:layout_column="1"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Maths(30)"
+                            android:textStyle="bold"/>
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/day5"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Drawing(30)"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/day6"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Total(120)"
+                            android:textStyle="bold"/>
+
+                    </TableRow>
+
+                    <!--    <View
+                            android:layout_height="2dip"
+                            android:background="#000000" />-->
+
+                    <TableRow
+                        android:id="@+id/tableRow2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/time1"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="001" />
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/sub1"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Ashok Wadkar" />
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/sub2"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="25" />
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/sub3"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="25" />
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/sub4"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="25" />
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/sub5"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="25" />
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/sub6"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="100" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/time2"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="002" />
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/ssub1"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Yash Ghildyal" />
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/ssub2"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="28" />
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/ssub3"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="28" />
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/ssub4"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="28" />
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/ssub5"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="28" />
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/ssub6"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="112" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/time3"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="003" />
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/tsub1"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Puja Shukla" />
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:gravity="center"
+                            android:id="@+id/tsub2"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="30" />
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/tsub3"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="30" />
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/tsub4"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="30" />
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/tsub5"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="30" />
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/tsub6"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="120" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/time4"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="004" />
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/fsub1"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Sanjula Reddy" />
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:gravity="center"
+                            android:id="@+id/fsub2"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="29" />
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/fsub3"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="29" />
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/fsub4"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="29" />
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/fsub5"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="29" />
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/fsub6"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="116" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:gravity="center"
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/time6"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="005" />
+
+
+                        <TextView
+                            android:gravity="center|center_vertical"
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/sisub1"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Praveen Babu" />
+
+                        <TextView
+                            android:gravity="center|center_vertical"
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/sisub2"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="30" />
+
+                        <TextView
+                            android:gravity="center|center_vertical"
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/sisub3"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="30" />
+
+                        <TextView
+                            android:gravity="center|center_vertical"
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/sisub4"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="30" />
+
+                        <TextView
+                            android:gravity="center|center_vertical"
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/sisub5"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="30" />
+
+                        <TextView
+                            android:gravity="center|center_vertical"
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/sisub6"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="120" />
+
+                    </TableRow>
+
+                </TableLayout>
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</HorizontalScrollView><!-- From: file:/D:/Android%20Project%20Backup%20on%2019March2015/MainActivity1/app/src/main/res/layout/third_attendance.xml -->

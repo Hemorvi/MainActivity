@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.paulusworld.drawernavigationtabs"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.paulusworld.drawernavigationtabs.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.paulusworld.drawernavigationtabs.TabbedActivity"
+            android:label="@string/title_activity_tabbed" >
+        </activity>
+        <activity
+            android:name="com.paulusworld.drawernavigationtabs.TabbedActivitySecond"
+            android:label="@string/title_activity_tabbed_second" >
+        </activity>
+
+        <activity
+            android:name="com.paulusworld.drawernavigationtabs.TabbedActivityThird"
+            android:label="@string/title_activity_tabbed_third" >
+        </activity>
+
+        <activity
+            android:name="com.paulusworld.drawernavigationtabs.TabbedActivityForth"
+            android:label="@string/title_activity_tabbed_third" >
+        </activity>
+
+        <activity
+            android:name=".DirectoryTabActivity"
+            android:label="@string/title_activity_directory_tab" >
+        </activity>
+        <activity
+            android:name=".OthersTabActivity"
+            android:label="@string/title_activity_others_tab" >
+        </activity>
+
+        <activity
+            android:name=".FirstClassActivity"
+            android:label="@string/title_activity_first">
+        </activity>
+
+        <activity
+            android:name=".SecondClassActivity"
+            android:label="@string/title_activity_second">
+        </activity>
+
+        <activity
+            android:name=".ThirdClassActivity"
+            android:label="@string/title_activity_third">
+        </activity>
+
+        <activity
+            android:name=".FirstClassAttendanceActivity"
+            android:label="@string/title_activity_first_attendance"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity
+            android:name=".SecondClassAttendanceActivity"
+            android:label="@string/title_activity_second_attendance"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity
+            android:name=".ThirdClassAttendanceActivity"
+            android:label="@string/title_activity_third_attendance"
+            android:screenOrientation="landscape">
+        </activity>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,7 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_activated="true" android:drawable="@color/mycolor1" />
+    <item android:state_selected="true" android:drawable="@color/mycolor2" />
+    <item android:state_pressed="true" android:drawable="@color/mycolor2" />
+    <item android:state_checked="true" android:drawable="@color/mycolor4" />
+    <item android:drawable="@color/mycolor1" />
+</selector><!-- From: file:/D:/Android%20Project%20Backup%20on%2019March2015/MainActivity1/app/src/main/res/drawable-hdpi/activated_background.xml -->

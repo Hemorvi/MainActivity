@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<HorizontalScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginBottom="5dip"
+    android:background="#EEEEEE">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="5dip"
+        android:background="#EEEEEE">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:background="#509ddd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:id="@+id/class2"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:text="\t2nd Class\nTime Table"
+                android:textSize="25sp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+
+            <LinearLayout
+                android:id="@+id/layout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/class2"
+                android:layout_marginBottom="10dip">
+
+                <TableLayout
+                    android:id="@+id/tabla_cuerpo1"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dip"
+                    android:layout_marginLeft="5dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_marginBottom="20dip">
+
+                    <!--    <View
+                            android:layout_height="2dip"
+                            android:background="#000000"
+                            android:layout_marginTop="5dip"/>-->
+
+                    <TableRow android:id="@+id/tabletitle1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_span="7"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:background="@drawable/cell_shape"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="5dp"
+                                android:gravity="center"
+                                android:id="@+id/title11"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="2nd" />
+
+                        </LinearLayout>
+
+                    </TableRow>
+
+                    <TableRow android:id="@+id/tableRow11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/srno1"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/day11"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="MON" />
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/day21"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="TUE" />
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/day31"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="WED" />
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/day41"
+                            android:layout_column="1"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="THU" />
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/day51"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="FRI" />
+
+                        SAT<TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/day61"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="SAT" />
+
+                    </TableRow>
+
+                    <!--    <View
+                            android:layout_height="2dip"
+                            android:background="#000000" />-->
+
+                    <TableRow
+                        android:id="@+id/tableRow21"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/time12"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="9:00" />
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/sub11"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="English" />
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:gravity="center"
+                            android:id="@+id/sub21"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Kannada" />
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/sub31"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Maths" />
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/sub41"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Drawing" />
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/sub51"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Maths" />
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/sub61"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="English" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow31"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/time21"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="9:30" />
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/ssub11"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Maths" />
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/ssub21"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Drawing" />
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/ssub31"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Kannada" />
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/ssub41"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Maths" />
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/ssub51"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="English" />
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:gravity="center"
+                            android:id="@+id/ssub61"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Maths" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow41"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/time31"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="10:00" />
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/tsub11"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Kannada" />
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/tsub21"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="English" />
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/tsub31"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Drawing" />
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/tsub41"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="English" />
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/tsub51"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Drawing" />
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/tsub61"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Kannada" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow51"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/brak1"
+                            android:layout_span="7"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Break"
+                            android:textStyle="bold"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow61"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/time41"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="11:00" />
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/fsub11"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Drawing" />
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/fsub21"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Maths" />
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/fsub31"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="English" />
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/fsub41"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Kannada" />
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/fsub51"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Kannada" />
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="5dp"
+                            android:id="@+id/fsub61"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Drawing" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow71"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="80dip"
+                                android:gravity="center_vertical"
+                                android:background="@drawable/cell_shape"
+                                android:padding="5dp"
+                                android:id="@+id/time61"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="11:30\n\tto\n12:30" />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="80dip"
+                            android:gravity="center|center_vertical"
+                            android:background="@drawable/cell_shape"
+                            android:layout_span="6"
+                            android:padding="5dp"
+                            android:id="@+id/sisub11"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Sport" />
+
+                    </TableRow>
+
+                </TableLayout>
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</HorizontalScrollView>
